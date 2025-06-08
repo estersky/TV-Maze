@@ -1,99 +1,76 @@
 # 🎬 TV Maze App
 
-TV Maze adalah aplikasi Android yang menampilkan daftar film dari API TV Maze. Aplikasi ini dibuat dengan memfilter data API hanya menampilkan film dengan **keyword "Batman"**. Aplikasi ini memiliki berbagai fitur menarik, mulai dari pencarian film, pengingat untuk menonton film, pengaturan tema, serta sistem login.
+Aplikasi **TV Maze** adalah aplikasi pencarian dan pengingat film berbasis Android yang menampilkan daftar film dari API TV Maze. Film yang ditampilkan di halaman utama adalah film dengan keyword **"Batman"**. Aplikasi ini dilengkapi berbagai fitur menarik seperti pencarian film, pengingat menonton, dan pengaturan tampilan aplikasi.
+
+---
+
+## 📱 Fitur-Fitur
+
+### 1. 🔍 Home / Daftar Film
+- Menampilkan daftar film bertema **Batman**.
+- Setiap item menampilkan **poster**, **judul**, **tanggal tayang**, dan **rating**.
+
+### 2. 🔎 Halaman Konten (Search)
+- Menampilkan daftar film berdasarkan kata kunci pencarian pengguna.
+- Dilengkapi fitur pencarian secara real-time.
+
+### 3. ⏰ Halaman Pengingat
+- Pengguna dapat menambahkan pengingat menonton film.
+- Form pengingat berisi **judul film**, **tanggal**, **jam**, dan dapat menyisipkan **foto**.
+- Foto bisa diambil langsung dari **kamera** atau **galeri**.
+
+### 4. 🎨 Pengaturan (Settings)
+- Mengubah warna latar belakang aplikasi sesuai preferensi pengguna.
+
+### 5. 🔐 Autentikasi Pengguna
+- Terdapat halaman **Login dan Register**.
+- Mendukung login menggunakan akun biasa dan **akun Google**.
+- Pengguna harus melakukan login sebelum masuk ke dalam aplikasi.
 
 ---
 
 ## 📸 Screenshot Aplikasi
 
-> (Tambahkan gambar ke dalam folder `screenshots/` lalu ubah path-nya di bawah sesuai nama file)
-<img src="jpg" width="400"/>
+### 🏠 Home
 
-![Home](home.jpg)
-![Search](navykonten.jpg)
-![Reminder](navypengingat.jpg)
-![Settings](navysettings.jpg)
-![Login](login.jpg)
+<img src="navyhome.jpg" width="400"/>
 
----
+### 🔍 Search Film
 
-## 🧾 Penjelasan Proyek
+<img src="navykonten.jpg" width="400"/>
 
-Aplikasi ini dinamakan **TV Maze**, yang menampilkan daftar film berdasarkan **API dari TV Maze**. Data difilter sehingga hanya film dengan keyword **Batman** yang akan ditampilkan di halaman utama.
+### ⏰ Pengingat Film
 
-### Halaman Utama (Home)
-Menampilkan:
-- Poster film
-- Judul film
-- Tanggal penayangan
-- Rating (bintang)
+<img src="navypengingat.jpg" width="400"/>
 
-### Halaman Konten (Search)
-- Fitur search film dari API TV Maze
-- Menampilkan hasil pencarian berdasarkan input pengguna
+### ⚙️ Pengaturan Tema
 
-### Halaman Pengingat (Reminder)
-- Menambahkan pengingat menonton film
-- Input judul film, tanggal, dan jam
-- Menambahkan gambar dari kamera atau galeri
-- Menggunakan sensor kamera perangkat
+<img src="navysettings.png" width="400"/>
 
-### Halaman Pengaturan (Settings)
-- Mengubah warna latar belakang aplikasi
-- Pilihan beberapa tema warna
+### 🔐 Login & Register
 
-### Login & Register
-- Login menggunakan akun manual atau akun Google
-- Jika belum memiliki akun, pengguna harus register terlebih dahulu
+<img src="login.jpg" width="400"/>
 
 ---
 
-## ✅ Fitur-Fitur yang Telah Dikerjakan
-
-- [x] Integrasi API TV Maze
-- [x] Filter data dengan keyword "Batman"
-- [x] Tampilan daftar film dengan RecyclerView
-- [x] Navigasi antar halaman (Bottom Navigation)
-- [x] Fitur pencarian film
-- [x] Tambah pengingat film + unggah foto
-- [x] Akses kamera dan galeri
-- [x] Notifikasi pengingat (AlarmManager)
-- [x] Pengaturan tema aplikasi
-- [x] Login manual & Google login
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
+## 🚀 Teknologi yang Digunakan
 - Java (Android Studio)
-- REST API (TV Maze)
-- RecyclerView
-- AlarmManager
-- CameraX / Intent Kamera
-- SharedPreferences
-- Firebase Authentication (opsional)
-- Glide / Picasso
+- API TV Maze
+- Firebase Authentication (untuk login dengan Google)
+- SharedPreferences & SQLite
+- Camera & Gallery Access
+- Custom Theme Settings
 
 ---
 
-## 🧠 Tujuan Pembuatan
-
-Proyek ini dibuat dalam rangka tugas eksplorasi API dengan tujuan:
-- Meningkatkan kemampuan mengonsumsi REST API di Android
-- Memahami manajemen data & tampilan modern
-- Menerapkan fitur autentikasi dan pengingat lokal
-- Mengatur tampilan dan preferensi pengguna
+## 💡 Tentang Project
+Aplikasi ini dikembangkan sebagai bagian dari tugas eksplorasi API. Fokusnya adalah pada integrasi API eksternal, manajemen autentikasi, fitur pengingat, dan personalisasi tampilan aplikasi.
 
 ---
 
-## 🙋 Tentang Pengembang
-
-**👩‍💻 Siti Aisyah**  
-Universitas Lambung Mangkurat  
-Program Studi Pendidikan Ilmu Komputer  
-GitHub: [@username](https://github.com/username)  
-Email: [alamat email]
+## 🧑‍💻 Developer
+Siti Aisyah – Mahasiswa Pendidikan Ilmu Komputer, Universitas Lambung Mangkurat
 
 ---
 
-> Jika kamu menyukai proyek ini, silakan ⭐ repo-nya dan fork untuk pengembangan lebih lanjut!
+Terima kasih telah mengunjungi proyek ini! Jika kamu menyukai aplikasi ini, jangan lupa ⭐ repo-nya ya!
