@@ -8,11 +8,11 @@ TV Maze adalah aplikasi Android yang menampilkan daftar film dari API TV Maze. A
 
 > (Tambahkan gambar ke dalam folder `screenshots/` lalu ubah path-nya di bawah sesuai nama file)
 
-![Home](screenshots/home.png)
-![Search](screenshots/search.png)
-![Reminder](screenshots/reminder.png)
-![Settings](screenshots/settings.png)
-![Login](screenshots/login.png)
+![Home](home.jpg)
+![Search](navykonten.jpg)
+![Reminder](navypengingat.jpg)
+![Settings](navysettings.jpg)
+![Login](login.jpg)
 
 ---
 
