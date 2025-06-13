@@ -1,76 +1,114 @@
-# 🎬 TV Maze App
+# Penjelasan Aplikasi TV Maze
 
-Aplikasi **TV Maze** adalah aplikasi pencarian dan pengingat film berbasis Android yang menampilkan daftar film dari API TV Maze. Film yang ditampilkan di halaman utama adalah film dengan keyword **"Batman"**. Aplikasi ini dilengkapi berbagai fitur menarik seperti pencarian film, pengingat menonton, dan pengaturan tampilan aplikasi.
+**TV Maze** adalah nama aplikasi yang saya buat, di mana di dalamnya menampilkan daftar film berdasarkan data dari **API TV Maze**. Data dari API difilter agar hanya menampilkan film yang memiliki **kata kunci "Batman"**. Dengan demikian, pengguna hanya akan melihat film-film bertema Batman saja di halaman aplikasi.
 
----
-
-## 📱 Fitur-Fitur
-
-### 1. 🔍 Home / Daftar Film
-- Menampilkan daftar film bertema **Batman**.
-- Setiap item menampilkan **poster**, **judul**, **tanggal tayang**, dan **rating**.
-
-### 2. 🔎 Halaman Konten (Search)
-- Menampilkan daftar film berdasarkan kata kunci pencarian pengguna.
-- Dilengkapi fitur pencarian secara real-time.
-
-### 3. ⏰ Halaman Pengingat
-- Pengguna dapat menambahkan pengingat menonton film.
-- Form pengingat berisi **judul film**, **tanggal**, **jam**, dan dapat menyisipkan **foto**.
-- Foto bisa diambil langsung dari **kamera** atau **galeri**.
-
-### 4. 🎨 Pengaturan (Settings)
-- Mengubah warna latar belakang aplikasi sesuai preferensi pengguna.
-
-### 5. 🔐 Autentikasi Pengguna
-- Terdapat halaman **Login dan Register**.
-- Mendukung login menggunakan akun biasa dan **akun Google**.
-- Pengguna harus melakukan login sebelum masuk ke dalam aplikasi.
+Berikut adalah fitur-fitur utama dari aplikasi **TV Maze**:
 
 ---
 
-## 📸 Screenshot Aplikasi
+## 1. Halaman Login
 
-### 🏠 Home
+Halaman pertama yang akan muncul ketika pengguna membuka aplikasi adalah **halaman Login**.  
+Di halaman ini, pengguna wajib melakukan login terlebih dahulu sebelum dapat mengakses aplikasi.
 
-<img src="navyhome.jpg" width="400"/>
+Pilihan login yang tersedia:
+- Membuat akun baru dengan mengklik tombol **Register**
+- Login dengan akun yang sudah dibuat sebelumnya
+- Login menggunakan **akun Google**
 
-### 🔍 Search Film
+Fitur login ini memastikan setiap pengguna memiliki sesi tersendiri yang aman. 
 
-<img src="navykonten.jpg" width="400"/>
+Berikut tampilan halaman-halaman tersebut:
 
-### ⏰ Pengingat Film
-
-<img src="navypengingat.jpg" width="400"/>
-
-### ⚙️ Pengaturan Tema
-
-<img src="navysettings.png" width="400"/>
-
-### 🔐 Login & Register
-
-<img src="login.jpg" width="400"/>
+### 📝 Tampilan Halaman Register
+<img src="register.jpg" width="250"/>
 
 ---
 
-## 🚀 Teknologi yang Digunakan
-- Java (Android Studio)
-- API TV Maze
-- Firebase Authentication (untuk login dengan Google)
-- SharedPreferences & SQLite
-- Camera & Gallery Access
-- Custom Theme Settings
+### 🔐 Tampilan Halaman Login dengan Akun yang Sudah Dibuat
+<img src="login.jpg" width="250"/>
 
 ---
 
-## 💡 Tentang Project
-Aplikasi ini dikembangkan sebagai bagian dari tugas eksplorasi API. Fokusnya adalah pada integrasi API eksternal, manajemen autentikasi, fitur pengingat, dan personalisasi tampilan aplikasi.
+### 🌐 Tampilan Halaman Login Menggunakan Akun Google
+<img src="login_google.jpg" width="250"/>
+
 
 ---
 
-## 🧑‍💻 Developer
-Siti Aisyah – Mahasiswa Pendidikan Ilmu Komputer, Universitas Lambung Mangkurat
+## 2. Halaman Home (Beranda)
+
+Setelah berhasil login, pengguna akan diarahkan ke halaman utama yaitu **Home**.
+
+Di halaman ini, akan ditampilkan daftar film bertema **Batman** yang diambil dari API. Informasi yang ditampilkan dalam daftar film meliputi:
+- Poster film  
+- Judul film  
+- Tanggal rilis  
+- Status  
+- Rating (ditampilkan dalam bentuk bintang)
+
+### 📝 Tampilan Halaman Home setelah login berhasil
+<img src="home.jpg" width="250"/>
 
 ---
 
-Terima kasih telah mengunjungi proyek ini! Jika kamu menyukai aplikasi ini, jangan lupa ⭐ repo-nya ya!
+## 3. Halaman Konten (Search / Pencarian)
+
+Pada halaman ini terdapat fitur **search (pencarian)** yang memungkinkan pengguna mencari film berdasarkan **kata kunci** yang mereka masukkan.  
+Data film akan ditampilkan sesuai hasil pencarian dari API TV Maze berdasarkan input pengguna.
+
+### 📝 Tampilan Halaman Konten
+<img src="navykonten.jpg" width="250"/>
+
+---
+
+## 4. Halaman Pengingat (Reminder)
+
+Di halaman **Reminder**, pengguna bisa membuat pengingat untuk menonton film dengan langkah berikut:
+- Klik tombol **Tambah Pengingat**
+- Isi data berupa:
+  - Judul film
+  - Tanggal dan jam pengingat
+  - Upload atau ambil foto dari galeri atau kamera (menggunakan sensor kamera perangkat)
+ 
+ ### 📝 Tampilan Halaman Pengingat
+<img src="pengingat.jpg" width="250"/>
+
+---
+
+Setelah data diisi, klik **Tambah Pengingat**, dan:
+- Data pengingat akan langsung tampil
+- Muncul pop-up bahwa reminder berhasil disimpan
+- Notifikasi otomatis akan muncul saat waktu yang telah diatur tiba
+
+### 📝 Tampilan halaman saat mengisi inputan
+<img src="inputan.jpg" width="250"/>
+
+---
+
+### 📝 Tampilan halaman saat reminder berhasil disimpan
+<img src="pinkpengingat.jpg" width="250"/>
+
+---
+
+### 📝 Tampilan halaman saat notifikasi masuk
+<img src="notifikasi.jpg" width="250"/>
+
+---
+
+## 5. Halaman Pengaturan (Settings)
+
+Pada halaman **Settings**, pengguna bisa memilih **tema warna latar belakang aplikasi** sesuai keinginan.
+
+Pilihan tema yang tersedia:
+- Tema **Default (Putih)**
+- Tema **Navy**
+- Tema **Hitam**
+- Tema **Pink**
+- Tema **Ungu**
+
+Setiap kali pengguna memilih salah satu tema, latar belakang aplikasi akan berubah secara otomatis sesuai pilihan tersebut.
+
+---
+
+> Dengan fitur-fitur ini, aplikasi **TV Maze** tidak hanya menampilkan daftar film, tetapi juga memberikan pengalaman interaktif melalui login, pencarian film, pengingat menonton, dan personalisasi tampilan tema.
