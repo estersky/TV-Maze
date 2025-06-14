@@ -111,28 +111,67 @@ Setiap kali pengguna memilih salah satu tema, latar belakang aplikasi akan berub
 Dibawah adalah contoh penggunaan tema-tema bagian halaman settings.
 
 ### 📝 Tampilan Halaman dengan  tema Putih
-<img src="putihhome.jpg" width="250"/>
+<p align="center">'/
+  <img src="putihhome.jpg" width="200" alt="Default Theme">
+  &nbsp;
+  <img src="putihhome.jpg" width="200" alt="Navy Theme">
+  &nbsp;
+  <img src="putihpengingat.jpg" width="200" alt="Dark Theme">
+  &nbsp;
+  <img src="putihsettings.jpg" width="200" alt="Pink Theme">
+</p>
 
 ---
 
 ### 🔐 Tampilan Halaman dengan tema Navy
-<img src="navyhome.jpg" width="250"/>
+<p align="center">'/
+  <img src="navyhome.jpg" width="200" alt="Default Theme">
+  &nbsp;
+  <img src="navyhome.jpg" width="200" alt="Navy Theme">
+  &nbsp;
+  <img src="navypengingat.jpg" width="200" alt="Dark Theme">
+  &nbsp;
+  <img src="navysettings.jpg" width="200" alt="Pink Theme">
+</p>
 
 ---
 
 ### 🌐 Tampilan Halaman dengan  tema Hitam
-<img src="hitamhome.jpg" width="250"/>
+<p align="center">'/
+  <img src="hitamhome.jpg" width="200" alt="Default Theme">
+  &nbsp;
+  <img src="hitamhome.jpg" width="200" alt="Navy Theme">
+  &nbsp;
+  <img src="hitampengingat.jpg" width="200" alt="Dark Theme">
+  &nbsp;
+  <img src="hitamsettings.jpg" width="200" alt="Pink Theme">
+</p>
 
 ---
 
 ### 🔐 Tampilan Halaman dengan tema Pink
-<img src="pinkhome.jpg" width="250"/>
+<p align="center">'/
+  <img src="pinkhome.jpg" width="200" alt="Default Theme">
+  &nbsp;
+  <img src="pinkhome.jpg" width="200" alt="Navy Theme">
+  &nbsp;
+  <img src="pinkpengingat.jpg" width="200" alt="Dark Theme">
+  &nbsp;
+  <img src="pinksettings.jpg" width="200" alt="Pink Theme">
+</p>
 
 ---
 
 ### 🌐 Tampilan Halaman dengan  tema Ungu
-<img src="unguhome.jpg" width="250"/>
+<p align="center">'/
+  <img src="unguhome.jpg" width="200" alt="Default Theme">
+  &nbsp;
+  <img src="unguhome.jpg" width="200" alt="Navy Theme">
+  &nbsp;
+  <img src="ungupengingat.jpg" width="200" alt="Dark Theme">
+  &nbsp;
+  <img src="ungusettings.jpg" width="200" alt="Pink Theme">
+</p>
 
 ---
 
-> Dengan fitur-fitur ini, aplikasi **TV Maze** tidak hanya menampilkan daftar film, tetapi juga memberikan pengalaman interaktif melalui login, pencarian film, pengingat menonton, dan personalisasi tampilan tema.
