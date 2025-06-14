@@ -33,7 +33,6 @@ Berikut tampilan halaman-halaman tersebut:
 ### 🌐 Tampilan Halaman Login Menggunakan Akun Google
 <img src="login_google.jpg" width="250"/>
 
-
 ---
 
 ## 2. Halaman Home (Beranda)
@@ -92,7 +91,7 @@ Setelah data diisi, klik **Tambah Pengingat**, dan:
 ---
 
 ### 📝 Tampilan halaman saat notifikasi masuk
-<img src="notifikasi.jpg" width="250"/>
+<img src="notif.jpg" width="250"/>
 
 ---
 
@@ -108,6 +107,31 @@ Pilihan tema yang tersedia:
 - Tema **Ungu**
 
 Setiap kali pengguna memilih salah satu tema, latar belakang aplikasi akan berubah secara otomatis sesuai pilihan tersebut.
+
+Dibawah adalah contoh penggunaan tema-tema bagian halaman settings.
+
+### 📝 Tampilan Halaman dengan  tema Putih
+<img src="putihhome.jpg" width="250"/>
+
+---
+
+### 🔐 Tampilan Halaman dengan tema Navy
+<img src="navyhome.jpg" width="250"/>
+
+---
+
+### 🌐 Tampilan Halaman dengan  tema Hitam
+<img src="hitamhome.jpg" width="250"/>
+
+---
+
+### 🔐 Tampilan Halaman dengan tema Pink
+<img src="pinkhome.jpg" width="250"/>
+
+---
+
+### 🌐 Tampilan Halaman dengan  tema Ungu
+<img src="unguhome.jpg" width="250"/>
 
 ---
 
